@@ -32,7 +32,6 @@ calculator = True
 wantsToRestart = True
 restart = True
 while restart:
-    print(art.logo)
     n1 = float(input("Please, insert first number:\n"))
     while calculator:
         value = calc()
@@ -52,4 +51,5 @@ while restart:
         restart = True
     elif wantsToRestart == "n":
         print("Goodbye!")
+
     calculator = True
