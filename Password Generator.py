@@ -27,4 +27,3 @@ gen_password = gen_password[:18]
 final_password = "".join(gen_password)
 
 print(final_password)
-print(len(final_password))
